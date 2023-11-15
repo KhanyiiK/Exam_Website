@@ -33,7 +33,7 @@ function loadAsteroidsArt() {
             }
             renderAsteroidOrbits(asteroids);
         })
-        .catch(error => console.error("Error fetching data:", error.message));
+        .catch(error => console.error("Error getting data:", error.message));
 }
 
 function renderAsteroidOrbits(asteroids) {

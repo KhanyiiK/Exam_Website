@@ -16,7 +16,7 @@ loadDataButton.addEventListener("click", loadAsteroidsArt);
 
 function loadAsteroidsArt() {
     const dateInput = document.getElementById('dateInput').value;
-    const apiKey = "GoeMBuuZBNwxjErw8AJfbweuUpRIxqesP2PevTZu";
+    const apiKey = "hmLb4VuZeYXJDH5eRHWTSjEjEWY57DYdYxzztVko";
     const apiUrl = `https://api.nasa.gov/neo/rest/v1/neo/browse?api_key=${apiKey}&date=${dateInput}`;
 
     fetch(apiUrl)

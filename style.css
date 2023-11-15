@@ -1,18 +1,4 @@
-/*-----------------------------------*\
-  #main.css
-\*-----------------------------------*/
 
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
 
@@ -241,7 +227,7 @@
   \*-----------------------------------*/
   
   .header {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -253,7 +239,6 @@
   
   .header.active {
     position: fixed;
-    animation: slideIn 0.5s ease forwards;
   }
   
   @keyframes slideIn {
@@ -277,7 +262,7 @@
   .navbar {
     position: fixed;
     top: 0;
-    left: -350px;
+    left: 0;
     max-width: 350px;
     width: 100%;
     background-color: var(--cultured);
@@ -290,7 +275,7 @@
   
   .navbar.active {
     visibility: visible;
-    transform: translateX(350px);
+    position: fixed;
     transition: 0.5s var(--cubic-out);
   }
   

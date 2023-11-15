@@ -15,7 +15,7 @@ const width = 800;
 const height = 800;
 let orbits = null;
 
-const svg = d3.select("#OrbitMap")
+const svg = d3.select("#orbit-map")
     .attr("width", width)
     .attr("height", height)
     .attr("viewBox", `0 0 ${width} ${height}`);

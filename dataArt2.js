@@ -15,7 +15,7 @@ const width = 800;
 const height = 800;
 let orbits = null;
 
-const svg = d3.select("#orbit-map")
+const svg = d3.select("#OrbitMap")
     .attr("width", width)
     .attr("height", height)
     .attr("viewBox", `0 0 ${width} ${height}`);
@@ -60,7 +60,7 @@ function renderAsteroidOrbits(asteroids) {
 
     const starRadius = Math.min(width, height) / 4; // Radius of the star pattern
 
-    const asteroidOrbits = orbits.selectAll("circle")
+    const asteroid0rbits = orbits.selectAll("circle")
         .data(asteroids)
         .enter()
         .append("circle")
